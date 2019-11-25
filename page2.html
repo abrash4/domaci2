@@ -1,0 +1,56 @@
+<html>
+<head>
+    <style type="text/css">
+        .imgStyle {
+            width: 200px;
+            height: 100px;
+            border: 3px solid grey;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#divId img').on({
+                mouseover: function () {
+                    $(this).css({
+                        'cursor': 'hand',
+                        'border-Color': 'red'
+                    });
+                },
+                mouseout: function () {
+                    $(this).css({
+                        'cursor': 'default',
+                        'border-Color': 'grey'
+                    });
+                },
+                click: function () {
+                    var imageURL = $(this).attr('src');
+                    $('#img1').fadeTo(1000, 0.4);
+                    $('#img4').fadeTo(1000, 0.4);
+                    $('#img5').fadeTo(1000, 0.4);
+                    
+                }
+            });
+        });
+    </script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <nav class="navbar" style="-webkit-text-fill-color:grey">
+                <a class="navbar-brand" href="#">
+                    <img id="foto2" src="img/imagine.png" width="500" height="150" alt=""></a>   
+    <br />
+    </nav>
+    <div id="divId" >
+        
+        <img class="imgStyle" id="img1" src="img/galerija1.jpg"  style="width: 600; height: 400;"/>
+        <img class="imgStyle" id="img2" src="img/galerija2.jpg" style="width: 600; height: 400;"/>
+        <img class="imgStyle" id="img3" src="img/galerija3.jpg" style="width: 600; height: 400;"/>
+        <img class="imgStyle" id="img4" src="img/galerija4.jpg" style="width: 600; height: 400;"/>
+        <img class="imgStyle" id="img5" src="img/galerija5.jpg"style="width: 600; height: 400;" />
+        <img class="imgStyle" id="img6" src="img/galerija6.jpg" style="width: 600; height: 400;"/>
+       
+    </div>
+</body>
+</html>

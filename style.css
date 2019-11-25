@@ -1,0 +1,89 @@
+#first{
+    flex-grow: 1;
+
+}
+
+#second{
+    flex-grow: 5;
+}
+
+#third{
+    flex-grow: 1;
+}
+
+
+
+body{
+    background-color: rgb(219, 209, 209);
+}
+
+
+
+.navbar.navbar-expand-lg.navbar-light{
+    width:1260px;
+    background-color:rgb(55, 36, 58);
+    height: 100px;
+    background-image: url("img/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.btn.btn-primary.btn-lg{
+    background-color:rgb(63, 34, 63);
+    border: none;
+    color: grey;
+}
+.dropdown-menu{
+    background-color: rgb(133, 109, 133);
+}
+.carousel-inner{
+    height: 600px;
+}
+.card-img-top{
+    height: 100px;
+    width: auto;
+}
+.col-sm{
+    background-color: rgb(219, 209, 209);
+}
+#albumi{
+    font-size: 50px;
+    font-weight: bold;
+    color: 	rgb(70, 23, 70);
+}
+.btn.btn-secondary{
+    background-color:rgb(63, 34, 63);
+    border: none;
+    color: grey;
+}
+#newsletterNaslov{
+    font-size: 30px;
+    font-weight: bold;
+    color: 	rgb(70, 23, 70);
+
+}
+.navbar{
+    width:1215px;
+    background-color:rgb(55, 36, 58);
+    height: 100px;
+    background-image: url("img/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: sticky;
+    top: 0;
+}
+
+#foto2{
+    position: relative;
+    bottom: 20px;
+    left:10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }

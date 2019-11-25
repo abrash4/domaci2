@@ -1,0 +1,35 @@
+
+.navbar{
+    width:1260px;
+    background-color:rgb(55, 36, 58);
+    height: 100px;
+    background-image: url("img/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    background-color: rgb(219, 209, 209);    
+}
+
+#foto{
+    position: relative;
+    bottom: 20px;
+    left:10px;
+}
+
+#par1{
+    height: 400px;
+}
+#par2{
+    height: 400px;
+}
+#par3{
+    height: 400px;
+}
+#par4{
+    height: 400px;
+}
